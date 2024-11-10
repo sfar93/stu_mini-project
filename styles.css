@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #2c2a2a;
+}
+
+/* Header Styles */
+header {
+    background-color: green; /* Change header color to green */
+    color: white;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 5px solid tan;
+}
+
+header ul {
+    list-style: none;
+    display: absolute; /* Display header items inline */
+    text-align: right;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline; /* Ensure list items are inline */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+figure {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    width:auto;
+}
+
+/* Contact Form Styles */
+form {
+    background-color: tan;
+    padding: 20px;
+    border-radius: 2px;
+    max-width:400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form label {
+
+    margin-bottom: 5px;
+    color: rgb(12, 12, 12); /* Optional: Change label color to black */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button {
+    background-color: rgb(42, 43, 42); /* Optional: Change button color to black */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a43; /* Optional: Adjust hover color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: green; /* Change footer color to green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid tan;
+
+}
